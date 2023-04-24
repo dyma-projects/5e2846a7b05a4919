@@ -10,6 +10,7 @@ export class Exercice2Component implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    console.log("clic");
   }
 
 }

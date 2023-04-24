@@ -1,0 +1,12 @@
+<p>exercice1 works!</p>
+<hr />
+<a [href]="lien">Voici le lien vers l'image</a>
+<hr />
+<p><button (click)="increment()">+</button>{{ " " }}{{ countValue }}</p>
+<hr />
+
+<div>
+    <span>Notre recherche actuellle :</span>
+    <b>{{filtre}}</b>
+</div>
+<input type="text" [(ngModel)]="filtre" >
